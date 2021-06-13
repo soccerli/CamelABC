@@ -1,4 +1,4 @@
-## A Maven Hello World project with Camel Spring, using Java configuration
+# A Maven Hello World project with Camel Spring, using Java configuration
 ##Summary
 1. This project uses Camel, Camel-Spring and camel-spring-javaconfig.
 2. This project can be run as standalone only.

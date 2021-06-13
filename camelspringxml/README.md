@@ -1,4 +1,4 @@
-## A Maven Hello World project with Camel Spring, using XML configuration
+# A Maven Hello World project with Camel Spring, using XML configuration
 ##Summary
 1. This project uses Camel and Camel-Spring.
 2. This project can be run as standalone only.

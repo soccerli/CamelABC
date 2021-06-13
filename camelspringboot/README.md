@@ -1,4 +1,4 @@
-## A Maven Hello World project with Camel Spring Boot
+# A Maven Hello World project with Camel Spring Boot
 ##Summary
 1. This project uses camel-spring-boot-starter. Spring Boot is such a black box and that's all it needs.
 2. This project runs as a Spring Boot Application.
