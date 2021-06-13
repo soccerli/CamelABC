@@ -1,4 +1,5 @@
 ## A Maven Hello World project with Camel only and nothing else
+
 ##Summary
 1. This project uses Camel dependency only.
 2. This project can be run as standalone only.
