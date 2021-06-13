@@ -4,7 +4,7 @@ At the time of year 2021, Apache Camel is still being used in industry even it s
 confusing to learn Camel without a simple running example, with which we can add new code later.  This Hello World project intends to show the basics of
 Camel in a practical way, and tries to explore different implementations of Apache Camel.
 
-All child projects in this project are doing the same and simplest thing: starts a Camel route ("from" is C:\input
+All child projects in this project are doing the same and simplest thing: starts a single Camel route ("from" is C:\input
 and "to" is C:\output). Once a child project is started and running successfully, any file coped to the folder C:\input
 will be moved to C:\output automatically.
 
