@@ -19,7 +19,7 @@ Check each child project to see its details and instructions.
 - [Camel Spring with Java config](camelspring/README.md)
 - [Camel Spring with XML config](camelspringxml/README.md)
 - [Camel Spring Boot](camelspringboot/README.md)
-- [Camel Spring deoployed on Jboss Fuse](camelSpringInFuse/README.md)
+- [Camel Spring deployed on Jboss Fuse](camelSpringInFuse/README.md)
 
 ## Dependencies
 

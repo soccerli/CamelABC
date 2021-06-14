@@ -1,6 +1,6 @@
 # A Maven Hello World project with Camel Spring, and can be deployed and run in Jboss Fuse
 ## Summary
-1. In pom.xml, added <packaging>bundle</packaging> since we need to package it as a bundle in order to deploy to Fuse
+1. In pom.xml, added \<packaging>bundle\</packaging> since we need to package it as a bundle in order to deploy to Fuse
 2. In pom.xml, added felix maven-bundle-plugin to build a bundle 
 3. In pom.xml, dependencies are camel-core only for this Hello World project as we are not writing any Spring code.
    camel-spring dependency may be needed if we want to add more code in the future.
