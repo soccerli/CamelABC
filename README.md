@@ -15,11 +15,11 @@ to get started on Camel.
 
 Check each child project to see its details and instructions. 
 
-- [Plain Camel - A maven project with camel only and nothing else](camelplain/README.md)
+- [Plain Camel - A Maven project with Camel only and nothing else](camelplain/README.md)
 - [Camel Spring with Java config](camelspring/README.md)
 - [Camel Spring with XML config](camelspringxml/README.md)
 - [Camel Spring Boot](camelspringboot/README.md)
-- TODO: Camel + FUSE
+- [Camel Spring deoployed on Jboss Fuse](camelSpringInFuse/README.md)
 
 ## Dependencies
 

@@ -13,6 +13,7 @@
         <module>camelspring</module>
         <module>camelspringxml</module>
         <module>camelspringboot</module>
+        <module>camelSpringInFuse</module>
     </modules>
 
     <properties>
