@@ -49,7 +49,8 @@ Minimum for the purpose, see pom.xml
 https://access.redhat.com/documentation/en-us/red_hat_fuse/7.8/html/getting_started/index
 
 Note at this link Redhat provides the information but in a way
-of how to use their IDE of CodeReady studio, not really a friendly document for people to get started. 
+of how to use their IDE of CodeReady studio, and their example especially the pom file 
+is not simple enough and to the point, not really a friendly document for people to get started. 
 
 ## Additional implementations
 Two Beans, including one implementing Camel Processor class are added in this Hello World project.
