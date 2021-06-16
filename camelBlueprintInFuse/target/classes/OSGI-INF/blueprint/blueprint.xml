@@ -1,0 +1,19 @@
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="              http://www.osgi.org/xmlns/blueprint/v1.0.0 https://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd              http://camel.apache.org/schema/blueprint https://camel.apache.org/schema/blueprint/camel-blueprint.xsd">
+    <!--
+      The namespace for the camelContext element in Blueprint is 'https://camel.apache.org/schema/blueprint'.
+
+      While it is not required to assign id's to the <camelContext/> and <route/> elements, it is a good idea
+      to set those for runtime management purposes (logging, JMX MBeans, ...)
+    -->
+    <bean id="camelProcessor" class="org.example.camel.CamelProcessor"/>
+    <bean id="exampleBeanClass" class="org.example.camel.ExampleBeanClass"/>
+    <camelContext id="fileCopy-example-context" xmlns="http://camel.apache.org/schema/blueprint">
+        <route id="rotueCopy">
+            <from id="_from1" uri="file:C:/input"/>
+            <process ref="camelProcessor" />
+            <bean ref="exampleBeanClass" method="exampleMethod"/>
+            <to id="_to1" uri="file:C:/output"/>
+        </route>
+    </camelContext>
+</blueprint>

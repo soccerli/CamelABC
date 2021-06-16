@@ -6,12 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="camelspringxml" />
-        <module name="camelSpringInFuse" />
-        <module name="camelspringboot" />
-        <module name="camelplain" />
-        <module name="camelspring" />
-        <module name="camelBlueprintInFuse" />
+        <module name="camelspringInFuse" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

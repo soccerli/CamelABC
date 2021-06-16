@@ -14,6 +14,7 @@
         <module>camelspringxml</module>
         <module>camelspringboot</module>
         <module>camelSpringInFuse</module>
+        <module>camelBlueprintInFuse</module>
     </modules>
 
     <properties>

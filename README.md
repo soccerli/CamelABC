@@ -8,18 +8,19 @@ All child projects in this project are doing the same and simplest thing: starts
 and "to" is C:\output). Once a child project is started and running successfully, any file coped to the folder C:\input
 will be moved to C:\output automatically.
 
-This is so simple, but to get it up and running, and to have a working Camel project from scratch is the hardest thing for many of us. I hope this Hello World project can help others who are trying
+This is so simple, but to get it up and running, and to have a working Camel project from scratch is hard at the beginning. I hope this Hello World project can help others who are trying
 to get started on Camel.
 
 ## Instructions
 
 Check each child project to see its details and instructions. 
 
-- [Plain Camel - A Maven project with Camel only and nothing else](camelplain/README.md)
-- [Camel Spring with Java config](camelspring/README.md)
-- [Camel Spring with XML config](camelspringxml/README.md)
+- [Plain Camel - A Maven project with Camel only and nothing else - standalone](camelplain/README.md)
+- [Camel Spring with Java config - standalone](camelspring/README.md)
+- [Camel Spring with XML config - standalone ](camelspringxml/README.md)
 - [Camel Spring Boot](camelspringboot/README.md)
-- [Camel Spring deployed on Jboss Fuse](camelSpringInFuse/README.md)
+- [Camel Spring deployed on Jboss Fuse Karaf](camelSpringInFuse/README.md)
+- [Camel Blueprint deployed on Jboss Fuse Karaf](camelBlueprintInFuse/README.md)
 
 ## Dependencies
 
