@@ -11,7 +11,7 @@ This is the default place for Fuse  to look for config file during run time.
 With any terminal, go to the project folder where the pom file is, run the command "mvn clean install"
 
 In pom.xml, groupId, artifactId are defined as below. Above mvn command will build/package a bundle(.jar) and copy it to
-$M2_HOME/repository/**com.example/camelBlueprintInFuse/1.0-SNAPSHOT**
+$M2_HOME/repository/**com/example/camelBlueprintInFuse/1.0-SNAPSHOT**
 
     <groupId>com.example</groupId>
     <artifactId>camelBlueprintInFuse</artifactId>
@@ -50,5 +50,6 @@ https://access.redhat.com/documentation/en-us/red_hat_fuse/7.8/html/getting_star
 
 ## Additional implementations
 Two Beans, including one implementing Camel Processor class are added in this Hello World project.
-All they do is printing a message along the route execution. Check the .xml file and Java classes 
-for details, it is straight forward. 
+All they do is printing a message along the route execution, and the printed messages can be found 
+in the log file $FUSE_HOME/data/log/fuse.log. Check the .xml file and Java classes 
+for details, it is straight forward.
