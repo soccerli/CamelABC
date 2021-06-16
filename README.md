@@ -8,6 +8,7 @@ All child projects in this project are doing the same and simplest thing: starts
 and "to" is C:\output). Once a child project is started and running successfully, any file coped to the folder C:\input
 will be moved to C:\output automatically.
 
+
 This is so simple, but to get it up and running, and to have a working Camel project from scratch is hard at the beginning. I hope this Hello World project can help others who are trying
 to get started on Camel.
 
